@@ -1,0 +1,32 @@
+ body{
+   background-image:url("https://78.media.tumblr.com/c1df4bc70135a05bf8290c638c32c09c/tumblr_p0xq7rLfBu1vbdodoo1_500.gif");
+  margin: 80px auto;
+   background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+ }
+
+.panel-border{
+  border:2px solid #BDB5D5;
+   box-shadow: 5px 5px 5px;
+}
+ #instructions{
+  background-color: #FAA0A0;
+ }
+
+ #rules{
+  background-image: linear-gradient(#E0D7FF,#D7EEFF);
+ }
+
+ #bottom{
+  background-color: #BDB5D5;
+ }
+
+ .submit {
+  align-content: center;
+    padding:7px 14px;
+    background-color: #65cbe9;
+    border:none;
+    box-shadow: 1px 5px 5px 1px black;
+   }

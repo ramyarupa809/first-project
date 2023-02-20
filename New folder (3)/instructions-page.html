@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Instructions1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="instructions-page.css" rel="stylesheet">
+
+<script>
+function yourFunction() {
+  var checkBox = document.getElementById("myCheck");
+  var text = document.getElementById("text");
+  if (checkBox.checked == true){
+    text.style.display = "block";
+  } else {
+     text.style.display = "none";
+  }
+}
+</script>
+  
+  </head>
+<body>
+ 
+<div class="container mt-3">
+  
+    <div class="panel panel-border" >
+       <div class="panel-heading"  id="instructions">Instructions:</div>
+          <div class="panel-body" id="rules" ><p class="text-info">1. This test contains 40 multiple-choice questions and 3 written questions. Each multiple choice question carries  <b>1 marks.</b><br>
+          2. One of the three written question carries 15 marks and the other two carry 10 marks each.<br>
+          3. The first 20 questions are english related , the next 20 questions are reasoning and aptitude based and the last three questions are based on coding.<br>
+          4. 1 hour is aloted for english and reasoning &amp; aptitude and 45 minutes for coding. So the test is for <b>1hr 45mins</b>.<br>
+          5. Once the questions are attempted and submited you can't go back to change your answers again. <br>
+          6. Please make sure that there are no other electronic devices around you. <br>
+          7. Cheating during the test is strictly prohibited and serious action will be taken.<br>
+          8. <b>Total marks</b> of the test is <b>75</b>.<br>
+          9. There are no <b>optional</b> questions all questions must be attempted.<br>
+          10. <b>Wrong answers will not be punished with negative scores.</b><br>
+          11. Once the duration of the exam ends the answered questions will be submitted automatically.
+
+           </p>
+      </div>
+<div class="panel-footer" id="bottom"> 
+      
+           <label class="form-check-label">
+       <input class="form-check-input" id="myCheck" onclick="yourFunction()" type="checkbox" name="remember"><b>  I read all the instructions thorougly and accept the terms and conditions.</b>
+      </label><br>
+      <!-- <div>
+         <a href="select-set.html">
+          <button class="submit" id="text" style="display:none"> Start the test</button>
+          </a></div> -->
+      <div>
+           <a href="select-set.html">
+            <input type="submit" class="submit" id="text" style="display:none" value="Start the test"></a>
+        </div>
+
+                 
+      </div>
+    </div>
+   </div>
+</body>
+</html>
